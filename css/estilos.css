@@ -72,3 +72,31 @@ main{
     color: rgb(2, 137, 7);
     margin-bottom: 12px;
 }
+
+        .active{
+            color: red important;
+
+        }
+        .volcan{
+            box-shadow: 10px 10px 24px 22px  #69cf71;
+            width: 30%;
+            display: flex;
+            flex-flow: column wrap;
+        }
+        .volcan img{
+            border-radius: 10px;
+            width: 100%;
+        }
+         .volcan iframe{
+            border-radius: 10px;
+            width: 100%;
+         }
+
+         .volcanes{
+            display: flex;
+        flex-flow: row wrap;
+        gap: 25px;
+         }
+
+
+        
