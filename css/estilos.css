@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header{
     box-shadow: 10px 10px 5px 0px rgba(191, 164, 164, 0.75);
     background-color: rgb(216, 251, 251);
@@ -11,7 +10,12 @@ header{
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
-    
+    width: 115%;
+    height: auto;
+}
+body{
+    background-image: url("https://www.creativosonline.org/wp-content/uploads/2014/02/fondos-gratis.jpg");
+   
 }
 
 .logo{
@@ -20,7 +24,7 @@ header{
 
 .logo img{
     padding: 3px;
-    width: 25%;
+    width: 40%;
 }
 
 nav ul{
@@ -68,35 +72,277 @@ main{
 }
 
 .titulo{
-    border-bottom: 2px double rgb(2, 137, 7);
-    color: rgb(2, 137, 7);
+    border-bottom: 2px double rgb(16, 126, 153);
+    color: rgb(16, 179, 22);
     margin-bottom: 12px;
+    font-family: 'Dancing Script', cursive;
+    font: 3em sans-serif;
 }
 
         .active{
             color: red important;
 
         }
-        .volcan{
-            box-shadow: 10px 10px 24px 22px  #69cf71;
-            width: 30%;
-            display: flex;
-            flex-flow: column wrap;
-        }
-        .volcan img{
-            border-radius: 10px;
-            width: 100%;
-        }
-         .volcan iframe{
+        
+            .imagen:hover{
+             -webkit-transform: rotateY(180deg);
+            -webkit-transform-style: preserve-3d;
+            transform: rotateY(180deg);
+              transform-style: preserve-3d;
+              width:1500%;
+              height: auto;
+              display:block;
+              margin-left: auto;
+              margin-right: auto;
+            
+            
+            }
+                
+                .nutricion{
+                    box-shadow: 10px 10px 24px 22px  #90b192;
+                    display: flex;
+                    flex-flow: column wrap;
+                    width: 100%;
+                     height: auto;
+                     text-align: center;
+                     color: blue;
+                     font: 1.5em sans-serif;
+                     background-color: rgb(233, 207, 93);
+                     font-family: 'Dancing Script', cursive;
+                     
+                }
+           
+
+         .nutricion iframe{
             border-radius: 10px;
             width: 100%;
          }
 
-         .volcanes{
-            display: flex;
+         .salud{
+         display: flex;
         flex-flow: row wrap;
         gap: 25px;
          }
-
-
+         .active{
+            color: rgb(240, 2, 2) !important;
+        }
+        .vision{
+         color: blue;
+         flex-flow: row wrap;
+         text-align:justify;
+         font-family: 'Secular One', sans-serif;
+         
+        }
+        .estilos{
+            box-shadow: 10px 10px 24px 22px  #90b192;
+            display: flex;
+            width: auto;
+             height:50%;
+             margin: auto;
+        }
+        .formulario-bg {
+            padding: 5% 0px;
+        }
+        .form-control {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
         
+        .img inicio{
+            display: block;
+            width: 10%;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+        }
+        .contenedor{
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .texto-encima{
+         position: absolute;
+            top: 300px;
+            left: 100px;
+            color: rgb(245, 70, 70);
+            font-size: xx-large;
+            font-weight: 900;
+   
+
+
+        }
+        .centrado{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .texto{
+               top: 1000px;
+               left: 800px;
+               color: rgb(36, 116, 9);
+               font-size: xx-large;
+               font-weight: 100;
+      text-align: justify;
+      text-decoration: solid;
+      font-size: 300%;
+     }
+      p{
+        text-decoration: solid;
+        font-size: 130%;
+
+     }
+     .card-img-top {
+        width: 20%;
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+    }
+    
+.container .card{
+    background-color: white;
+    width: 270px;
+    border-style: dashed;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+.container .card img{
+    width: 100%;
+
+}
+
+.container  .card h3{
+    font-size: 25px;
+    background-color: beige;
+    text-align: center;
+}
+.container .card p{
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px;
+}
+.primeraletra::first-letter{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+footer{
+    text-align: right;
+    letter-spacing: 5px;
+    color: white;
+ background-color: rgb(16, 112, 197);
+ padding: 30x;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main.container{
+    width: 75%;
+    background-color: rgba(193, 226, 225, 0.295);
+    margin: 0 auto;
+}
+
+section.conta{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+section .card {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: rgba(12, 97, 4, 0.829);
+    width: 300px;
+    border-style: 40px solid black;
+    border-radius: 2.5px;
+    height: auto;
+   
+    
+
+}
+
+.container img {
+    width: 30%;
+    border-radius: 15%;
+}
+
+p.tex  {
+    margin: 1px;
+    padding: 1px;
+    color: white;
+    text-align: justify;
+}
+
+.image {
+    text-align: center;
+}
+
+.video {
+    height: 25px;
+}
+caption{
+    color: red;
+    font-size: x-large;
+    
+    }
+    th{
+        color: rgba(236, 29, 29, 0.938);
+        font-size: larger;
+    }
+    .tex{
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+    .conclu{
+        color: rgb(212, 24, 103);
+    }
+    .tex conta{
+        font: size 0.1em;;
+    }
+    @media only screen and (min-width: 992px)
+.top-title .title-data-cntr {
+    
+    }
+    .yarpp-related {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .vc_column_container > .vc_column-inner {
+        box-sizing: border-box;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        width: 100%;
+    }
